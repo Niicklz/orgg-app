@@ -1,12 +1,12 @@
-import "./Button.css"
+import "./Button.css";
 interface ButtonProps {
-  onClickFn:()=> void
+  onClick?: () => void;
 }
 
-
-
-export const Button = ({onClickFn}:ButtonProps) => {
+export const Button = ({ onClick }: ButtonProps) => {
   return (
-    <button className="button-comp" onClick={onClickFn} type="button">Crear</button>
-  )
-}
+    <button className="button-comp" onClick={onClick} type="button">
+      Crear
+    </button>
+  );
+};

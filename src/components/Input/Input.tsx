@@ -23,7 +23,7 @@ type TypeOfInputs =
 
 interface InputProps {
   placeholder: string;
-  type: TypeOfInputs;
+  type: React.HTMLInputTypeAttribute;
   labelText: string;
   value: string
   handleChange?: (value:string)=>void;
@@ -37,13 +37,11 @@ export const Input = ({ placeholder, type, labelText, handleChange, value }: Inp
     <div className="input-container">
       <label htmlFor={labelText.toLowerCase()}>{labelText}</label>
       <input
-        
         type={type}
         placeholder={placeholder}
         id={labelText.toLowerCase()}
         value={value}
-        /*K explique angel estas tacticas en la revision */
-        onChange={(e:React.ChangeEvent<HTMLInputElement>)=>{ if(handleChange) {
+        onChange={(e)=>{ if(handleChange) {
           handleChange(e.target?.value)
         }}}
       />
