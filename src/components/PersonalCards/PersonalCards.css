@@ -1,0 +1,74 @@
+.personal-card-container {
+
+    height: 270px;
+    width: 262px;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px 0px #00000014;
+
+}
+
+.personal-card-container header {
+    width: 100%;
+    height: 35%;
+    
+    position: relative;
+}
+
+.personal-card-container figure {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: blue;
+    position: absolute;
+    
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+} .personal-card-container figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.personal-card-container section h3 {
+    margin-top: 5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #6278F7;
+    font-weight: bold;
+}
+.personal-card-container section h4 {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #212121;
+}
+
+
+.top-card-programacion {
+    background-color: #57C278 ;
+}
+.top-card-front-end {
+    background-color: #82CFFA ;
+}
+.top-card-datacience {
+    background-color: #A6D157 ;
+}
+.top-card-devops {
+    background-color: #E06B69 ;
+}
+.top-card-movil {
+    background-color: #FFBA05 ;
+}
+.top-card-innovacionygestion {
+    background-color: #FF8A29 ;
+}
+
+.top-card-uxydiseño {
+background-color: #DB6EBF;
+}

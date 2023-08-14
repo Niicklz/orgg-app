@@ -1,0 +1,26 @@
+.select-position {
+    height: 40px;
+    box-shadow: 10px 10px 30px 0px #0000000F;
+    border: none;
+    padding: 1rem;
+    font-size: 0.7rem;
+    color: #AFAFAF;
+    padding: 2rem 4rem;
+}
+.select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.select-position {
+   
+    background: url(/src/assets/arrow_drop_down_FILL0_wght400_GRAD0_opsz48.png) no-repeat right center; 
+    padding-right: 20px; 
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    
+  }

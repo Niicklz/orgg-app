@@ -1,0 +1,13 @@
+.button-comp {
+    padding: 1rem;
+    max-width: 150px;
+    border-radius: 12px;
+    border: none;
+    background-color: #6278F7;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.button-comp:hover {
+    color: #95FFD4;
+}

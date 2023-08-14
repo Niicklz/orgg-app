@@ -1,0 +1,48 @@
+.team-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.team-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.team-programacion {
+    background-color: #D9F7E9;
+}
+
+.team-front-end {
+    background-color: #E8F8FF;
+}
+
+
+.team-datacience {
+    background-color: #F0F8E2 ;
+}
+.team-devops {
+    background-color: #FDE7E8 ;
+}
+.team-movil {
+    background-color: #FFF5D9 ;
+}
+.team-innovacionygestion {
+    background-color: #FFEEDF;
+}
+
+.team-uxydiseño {
+background-color: #FAE9F5;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

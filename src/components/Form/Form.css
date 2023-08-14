@@ -1,0 +1,38 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-colaborator {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    
+    background-color: #F6F6F6;
+    box-shadow: 7px 7px 15px 0px #00000014;
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.form-colaborator-fieldset legend {
+    font-family: 'Prata', serif;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+fieldset input {
+    padding: 0.5rem 1rem;
+}
+fieldset label {
+    margin-bottom: 1rem;
+}
+
+fieldset input::placeholder {
+color: #AFAFAF;
+font-size: 0.7rem;
+}
+
